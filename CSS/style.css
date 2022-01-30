@@ -102,10 +102,72 @@
   grid-gap: 10px;
   background-color: #fff;
   padding: 5px;
+  table-layout: fixed;
+  border-spacing: 0px;
+  margin-left: auto;
+  font-family: "Gentium Book Basic", "serif";
+  line-height: 1.5;
+  font-size: 24px;
 }
 
 .grid-container > div {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: left;
   padding: 20px 30px;
-  font-size: 18px; }
+  }
+.box-collection {
+    position: relative;
+    text-align: left;
+    color: black;
+    padding: 5px; 
+    padding-top: 40px;
+    
+}
+.align {
+    position: absolute;
+    left: 150px;
+    top: 15px;
+    font-family: "Pacifico", "cursive";
+    font-size: 50px;
+    
+}
+.research-content1 {
+    position: absolute;
+    right: 15px;
+    top: 200x;
+    font-family: "Gentium Book Basic", "serif";
+    font-size: 25px;
+    height:593px;
+    width:45%;
+    background: lightgray;}
+.research-content2 {
+   margin-top: 50px;
+    position: absolute;
+    left: 15px;
+    top: 300x;
+    font-family: "Gentium Book Basic", "serif";
+    font-size: 25px;
+    height:155px;
+    width:45%;
+    background: lightgray;
+}
+.research-content3 {
+    position: absolute;
+    left: 15px;
+    top: 490px;
+    font-family: "Gentium Book Basic", "serif";
+    font-size: 25px;
+    height:593px;
+    width:45%;
+    background: lightgray;}
+
+.research-content4 {
+    position: absolute;
+    right: 15px;
+    top: 885px;
+    font-family: "Gentium Book Basic", "serif";
+    font-size: 25px;
+    height:257px;
+    width:45%;
+    background: lightgray;}
+      
