@@ -1,0 +1,26 @@
+#navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px;
+    font-family: "Gentium Book Basic", serif;
+    background-color: #7C3A2A;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    font-size: 24px;
+  }
+  #navBar h1 {
+    width: 25%;
+    font-weight: 500;
+  }
+  #navigation {
+    display: flex;
+    width: 50%;
+    align-items: right;
+    justify-content: space-evenly;
+  }
+
+.hello {
+  position:relative;
+  text-align: center;
+}
