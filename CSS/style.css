@@ -23,25 +23,57 @@
     position: relative;
     text-align: center;
     color: white;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 10px;
   }
   .centered {
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: "Pacifico", "cursive";
     font-size: 60px;
-
-
   }
 
 .under {
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: "Gentium Book Basic", "serif";
     font-size: 21px;
     padding: 30px;
+}
+.tupperware {
+    position: relative;
+    text-align: center;
+    color: black;
+    padding: 5px; 
+  }
+.middle {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Gentium Book Basic", "serif";
+    font-size: 25px;
+    font-style: italic;
+}
+
+.heroImg {
+    position: relative;
+    text-align:left;
+    color: black;
+    padding: 5px; 
+}
+
+.bottomLeft {
+    position: absolute;
+    top: 80%;
+    left: 62px;
+    font-family: "Gentium Book Basic", "serif";
+    font-size: 30px;
+    width: 691px;
+    height: 225px;
+
 }
