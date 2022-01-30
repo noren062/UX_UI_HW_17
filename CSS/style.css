@@ -23,12 +23,25 @@
     position: relative;
     text-align: center;
     color: white;
-    font-family: "Pacifico", "cursive";
     padding: 50px;
   }
   .centered {
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: "Pacifico", "cursive";
+    font-size: 60px;
+
+
   }
+
+.under {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Gentium Book Basic", "serif";
+    font-size: 21px;
+    padding: 30px;
+}
